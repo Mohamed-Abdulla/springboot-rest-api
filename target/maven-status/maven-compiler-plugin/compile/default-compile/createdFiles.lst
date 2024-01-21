@@ -1,0 +1,6 @@
+com/example/springrestapi/student/StudentConfig.class
+com/example/springrestapi/student/Student.class
+com/example/springrestapi/student/StudentController.class
+com/example/springrestapi/student/StudentService.class
+com/example/springrestapi/SpringRestApiApplication.class
+com/example/springrestapi/student/StudentRepository.class
