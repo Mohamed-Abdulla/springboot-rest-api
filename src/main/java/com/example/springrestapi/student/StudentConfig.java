@@ -15,21 +15,19 @@ public class StudentConfig {
         return args -> {
             Student mohamed = new Student(
                     "Mohamed",
-                    22,
                     LocalDate.of(2002, Month.FEBRUARY, 12),
                     "mohamedabdulla.web@gmail.com"
             );
             Student abdulla = new Student(
                     "abdulla",
-                    22,
                     LocalDate.of(2002, Month.FEBRUARY, 12),
                     "abdabdulla78@gmail.com"
             );
 
             //save to db
-            repository.saveAll(
-                    List.of(mohamed,abdulla)
-            );
+//            repository.saveAll(
+//                    List.of(mohamed,abdulla)
+//            );
         };
     }
 }
